@@ -5,7 +5,7 @@ import type { NextPage } from "next";
 import { useLocalStorage } from "usehooks-ts";
 import { BarsArrowUpIcon } from "@heroicons/react/20/solid";
 import { MetaHeader } from "~~/components/MetaHeader";
-import { ContractUI } from "~~/components/scaffold-eth";
+import { ContractUI } from "~~/_components/contracts";
 import { ContractName } from "~~/utils/scaffold-eth/contract";
 import { getAllContracts } from "~~/utils/scaffold-eth/contractsData";
 
