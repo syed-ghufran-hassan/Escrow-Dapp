@@ -2,14 +2,14 @@
 
 //import Link from "next/link";
 import type { NextPage } from "next";
-import { useAccount } from "wagmi";
+//import { useAccount } from "wagmi";
 //import { BugAntIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 //import { Address } from "~~/components/scaffold-eth";
 import {MetaHeader} from  "~~/components/MetaHeader.tsx";
 
 
 const Home: NextPage = () => {
-  const { address: connectedAddress } = useAccount();
+ // const { address: connectedAddress } = useAccount();
   return (
     <>
       <MetaHeader />
@@ -19,8 +19,6 @@ const Home: NextPage = () => {
             <span className="block text-2xl mb-2">Welcome to</span>
             <span className="block text-4xl font-bold">Escrow System</span>
           </h1>
-           {/* Use connectedAddress in your JSX */}
-          <p>{connectedAddress ? `Connected as: ${connectedAddress}` : "Not connected"}</p>
           
         </div>
 
