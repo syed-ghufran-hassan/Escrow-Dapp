@@ -4,10 +4,12 @@
 import type { NextPage } from "next";
 import { useAccount } from "wagmi";
 //import { BugAntIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
-import { Address } from "~~/components/scaffold-eth";
+//import { Address } from "~~/components/scaffold-eth";
+import {MetaHeader} from  "~~/components/MetaHeader.tsx";
+
 
 const Home: NextPage = () => {
-  const { address: connectedAddress } = useAccount();
+  //const { address: connectedAddress } = useAccount();
   return (
     <>
       <MetaHeader />
