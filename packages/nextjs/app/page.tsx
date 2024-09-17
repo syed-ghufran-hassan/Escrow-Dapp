@@ -5,7 +5,7 @@ import type { NextPage } from "next";
 //import { useAccount } from "wagmi";
 //import { BugAntIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 //import { Address } from "~~/components/scaffold-eth";
-import {MetaHeader} from  "~~/components/MetaHeader.tsx";
+import {MetaHeader} from  "~~/components";
 
 
 const Home: NextPage = () => {
